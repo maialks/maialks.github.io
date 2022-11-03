@@ -1,0 +1,139 @@
+.falcon-0 {
+  background-image: url(../../assets/falcon9/01.jpg);
+  .falcon-0-text {
+    height: 82vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .falcon-title {
+    flex-wrap: wrap;
+  }
+  .falcon-subtitle {
+    flex-wrap: wrap;
+  }
+}
+
+.falcon-1 {
+  min-height: 20vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: black;
+  .falcon-numbers {
+    text-align: center;
+    padding: 0 5%;
+  }
+  .numbers-title {
+    font-size: 90px;
+  }
+  .numbers-SUBtitle {
+    font-size: 20px;
+  }
+}
+.falcon-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(../../assets/falcon9/02.jpg);
+}
+.falcon-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(../../assets/falcon9/08.jpg);
+}
+.falcon-6 {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.carousel-1 {
+  height: 100vh;
+}
+.carousel-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.carousel-1-item {
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#carousel-item-1 {
+  background-image: url(/assets/falcon9/03.jpg);
+}
+#carousel-item-2 {
+  background-image: url(/assets/falcon9/04.jpg);
+}
+#carousel-item-3 {
+  background-image: url(/assets/falcon9/05.jpg);
+}
+#carousel-item-4 {
+  background-image: url(/assets/falcon9/06.jpg);
+}
+.carousel-2 {
+  height: 100%;
+}
+.falcon-title-overview {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+.falcon-subtitle-overview {
+  font-size: 2rem;
+}
+@media (min-width: 801px) {
+  .falcon-title {
+    font-size: 3.5rem;
+  }
+  .falcon-subtitle {
+    font-size: 3rem;
+  }
+  .falcon-text-left-aling {
+    font-size: 1.5rem;
+    padding-right: 40%;
+  }
+  .falcon-container-overview {
+    padding-right: 45%;
+  }
+  .carousel-content {
+    width: 60vw;
+    padding: 10%;
+  }
+}
+@media (max-width: 800px) {
+  .falcon-title {
+    font-size: 2rem;
+  }
+  .falcon-subtitle {
+    font-size: 1.5rem;
+  }
+  .falcon-text-left-aling {
+    font-size: 1rem;
+    padding-right: 35%;
+  }
+  .falcon-container-overview {
+    padding-right: 30%;
+    text-shadow: 1px 1px black;
+  }
+  .carousel-2-caption {
+    font-size: 0.7rem;
+  }
+  .carousel-content {
+    width: 90vw;
+    padding: 10%;
+  }
+}
+@media (max-width: 394px) {
+  .falcon-container-overview {
+    padding: 5%;
+    text-shadow: 1px 1px black;
+  }
+}

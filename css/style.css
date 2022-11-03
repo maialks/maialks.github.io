@@ -1,0 +1,381 @@
+* {
+  color: white;
+}
+
+.nav-logo {
+  margin: 0 auto;
+  padding: 1.5rem 0px;
+}
+
+.navbar-toggler {
+  margin: 0 auto;
+}
+
+.page-container {
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.footer {
+  min-height: 15vh;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.footer-text-container {
+  padding: 0px 1rem;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-text {
+  text-decoration: none;
+  color: white;
+}
+.footer-text:hover {
+  color: #434343;
+}
+
+.footer-copy {
+  color: #6a6a6a;
+}
+
+#text-right {
+  text-align: right;
+}
+
+#carousel-img {
+  height: 100vh;
+}
+
+@media (max-width: 768px) {
+  #carousel-img {
+    height: 100vh;
+    object-fit: cover;
+    object-position: 50% 10%;
+  }
+}
+.text-shadow {
+  text-shadow: 1px 1px rgb(20, 20, 20);
+}
+
+.arrow {
+  width: 100px;
+  margin-top: 63%;
+}
+
+.botton-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.botton-button {
+  width: 200px;
+}
+
+.page-container.home-0 {
+  background-image: url(../../assets/home/01.jpg);
+}
+.page-container.home-1 {
+  background-image: url(../../assets/home/02.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.page-container.home-2 {
+  background-image: url(../../assets/home/03.gif);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.page-container.home-3 {
+  background-image: url(../../assets/home/04.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.home-0-text-container {
+  padding-top: 30vh;
+}
+
+#right {
+  text-align: end;
+}
+
+@media (max-width: 991px) {
+  .page-container.home-0 {
+    background-image: url(../../assets/home/01-sm.jpg);
+  }
+  .page-container.home-1 {
+    background-image: url(../../assets/home/02-sm.jpg);
+  }
+}
+.falcon-0 {
+  background-image: url(../../assets/falcon9/01.jpg);
+}
+.falcon-0 .falcon-0-text {
+  height: 82vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.falcon-0 .falcon-title {
+  flex-wrap: wrap;
+}
+.falcon-0 .falcon-subtitle {
+  flex-wrap: wrap;
+}
+
+.falcon-1 {
+  min-height: 20vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: black;
+}
+.falcon-1 .falcon-numbers {
+  text-align: center;
+  padding: 0 5%;
+}
+.falcon-1 .numbers-title {
+  font-size: 90px;
+}
+.falcon-1 .numbers-SUBtitle {
+  font-size: 20px;
+}
+
+.falcon-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(../../assets/falcon9/02.jpg);
+}
+
+.falcon-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(../../assets/falcon9/08.jpg);
+}
+
+.falcon-6 {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.carousel-1 {
+  height: 100vh;
+}
+
+.carousel-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.carousel-1-item {
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#carousel-item-1 {
+  background-image: url(/assets/falcon9/03.jpg);
+}
+
+#carousel-item-2 {
+  background-image: url(/assets/falcon9/04.jpg);
+}
+
+#carousel-item-3 {
+  background-image: url(/assets/falcon9/05.jpg);
+}
+
+#carousel-item-4 {
+  background-image: url(/assets/falcon9/06.jpg);
+}
+
+.carousel-2 {
+  height: 100%;
+}
+
+.falcon-title-overview {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.falcon-subtitle-overview {
+  font-size: 2rem;
+}
+
+@media (min-width: 801px) {
+  .falcon-title {
+    font-size: 3.5rem;
+  }
+  .falcon-subtitle {
+    font-size: 3rem;
+  }
+  .falcon-text-left-aling {
+    font-size: 1.5rem;
+    padding-right: 40%;
+  }
+  .falcon-container-overview {
+    padding-right: 45%;
+  }
+  .carousel-content {
+    width: 60vw;
+    padding: 10%;
+  }
+}
+@media (max-width: 800px) {
+  .falcon-title {
+    font-size: 2rem;
+  }
+  .falcon-subtitle {
+    font-size: 1.5rem;
+  }
+  .falcon-text-left-aling {
+    font-size: 1rem;
+    padding-right: 35%;
+  }
+  .falcon-container-overview {
+    padding-right: 30%;
+    text-shadow: 1px 1px black;
+  }
+  .carousel-2-caption {
+    font-size: 0.7rem;
+  }
+  .carousel-content {
+    width: 90vw;
+    padding: 10%;
+  }
+}
+@media (max-width: 394px) {
+  .falcon-container-overview {
+    padding: 5%;
+    text-shadow: 1px 1px black;
+  }
+}
+.spaceships-0 {
+  background-image: url(../../assets/humanFlight/01.jpg);
+}
+.spaceships-0 .spaceships-header-text-container {
+  margin: 15vh 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.spaceships-0 .spaceships-title {
+  font-size: 12vw;
+}
+.spaceships-0 .spaceships-subtitle {
+  font-size: 3vw;
+}
+
+.spaceships-1 {
+  background-image: url(../../assets/humanFlight/02.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.spaceships-1 {
+  background-image: url(../../assets/humanFlight/02.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-END;
+}
+
+.spaceships-2 {
+  background-image: url(../../assets/humanFlight/03.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.spaceships-3 {
+  background-image: url(../../assets/humanFlight/04.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.spaceships-4 {
+  background-image: url(../../assets/humanFlight/05.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.spaceships-5 {
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.spaceships-container-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.spaceships-buttons {
+  width: 140px;
+}
+
+@media (max-width: 768px) {
+  .spaceships-page {
+    background-position: 55% 10%;
+  }
+  .spaceships-container-text-r {
+    margin: 0 0 0 28vw;
+    padding-right: 1rem;
+  }
+  .spaceships-container-text-l {
+    margin: 0 28vw 0 0;
+    padding-left: 1rem;
+  }
+}
+@media (min-width: 769px) {
+  .spaceships-container-text-r {
+    margin: 0 0 0 53vw;
+    padding-right: 1rem;
+  }
+  .spaceships-container-text-l {
+    margin: 0 53vw 0 0;
+    padding-left: 1rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

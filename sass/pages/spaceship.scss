@@ -1,0 +1,87 @@
+.spaceships-0 {
+  background-image: url(../../assets/humanFlight/01.jpg);
+  .spaceships-header-text-container {
+    margin: 15vh 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .spaceships-title {
+    font-size: 12vw;
+  }
+  .spaceships-subtitle {
+    font-size: 3vw;
+  }
+}
+.spaceships-1 {
+  background-image: url(../../assets/humanFlight/02.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.spaceships-1 {
+  background-image: url(../../assets/humanFlight/02.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-END;
+}
+.spaceships-2 {
+  background-image: url(../../assets/humanFlight/03.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.spaceships-3 {
+  background-image: url(../../assets/humanFlight/04.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.spaceships-4 {
+  background-image: url(../../assets/humanFlight/05.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.spaceships-5 {
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.spaceships-container-text {
+  display: flex;
+  flex-direction: column;
+}
+.spaceships-buttons {
+  width: 140px;
+}
+@media (max-width: 768px) {
+  .spaceships-page {
+    background-position: 55% 10%;
+  }
+  .spaceships-container-text-r {
+    margin: 0 0 0 28vw;
+    padding-right: 1rem;
+  }
+  .spaceships-container-text-l {
+    margin: 0 28vw 0 0;
+    padding-left: 1rem;
+  }
+}
+@media (min-width: 769px) {
+  .spaceships-container-text-r {
+    margin: 0 0 0 53vw;
+    padding-right: 1rem;
+  }
+  .spaceships-container-text-l {
+    margin: 0 53vw 0 0;
+    padding-left: 1rem;
+  }
+}
